@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Generate | Ashvin Motye</title>
+	<link rel="icon" type="image/png" href="./icon.png">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+
+	<div class="container">
+		<header>
+			<h1>Favourite number</h1>
+
+			<p>The number you enter will be used by the algorithm to generate a combination of 6 numbers.<br>It will work even without a number input.</p>
+
+			<p id="error"></p>
+		</header>
+
+
+		<form onsubmit="return false;">
+			<input type="text" name="fav">
+		</form>
+
+		<button>Generate</button>
+
+		<div id="output"></div>
+
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
